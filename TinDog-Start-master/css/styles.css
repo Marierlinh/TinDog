@@ -31,6 +31,17 @@ p {
     padding: 7% 15%;
 }
 
+/* Sections */
+
+.color-section{
+    background-color: rgba(188, 1, 60, 0.689) ;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -60,14 +71,9 @@ p {
 
 /* Title Section */
 
-#title{
-    text-align: left;
-    background-color: rgba(188, 1, 60, 0.689) ;
-    color: #fff;
-}
-
 #title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 
 /* Title Image */
@@ -105,10 +111,7 @@ p {
 
 /* Testimonials Section*/
 
-#testimonials {   
-    background-color: rgba(188, 1, 60, 0.689);
-    color: #fff;
-}
+
 
 .testimonial-txt {
     font-size: 3rem;
@@ -125,7 +128,7 @@ p {
 
 
 #press {
-    background-color: rgba(188, 1, 60, 0.689);
+
     padding-bottom: 5%;
 }
 
@@ -152,11 +155,6 @@ p {
 
 /* CTA Section*/
 
-#cta {
-
-    color: #fff;
-    background-color: rgba(188, 1, 60, 0.689);
-}
 
 .cta-txt {
     font-family: 'Open Sans';
