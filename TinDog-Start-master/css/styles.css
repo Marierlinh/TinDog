@@ -1,38 +1,36 @@
 body{
     font-family: 'Montserrat';
+    text-align: center;
 }
 
-#title{
-    background-color: rgba(188, 1, 60, 0.689) ;
-    color: #fff;
-}
-
-.container-fluid{
-    padding: 3% 15% 7%;
-}
-
-h1{
-    font-family: 'Open Sans';
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
-h2 {
-    font-family: 'Open Sans';
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-h3 {
+h1,h2, h3, h4, h5, h6{
     font-family: 'Montserrat-Bold';
-    font-size: 1.5rem;
 }
-
 
 
 p {
     color: #8f8f8f;
 }
+
+/* Headings */
+
+.big-heading{
+    font-family: 'Open Sans';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -60,6 +58,18 @@ p {
     margin: 5% 3% 5% 0;
 }
 
+/* Title Section */
+
+#title{
+    text-align: left;
+    background-color: rgba(188, 1, 60, 0.689) ;
+    color: #fff;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
 /* Title Image */
 
 .title-image{
@@ -72,13 +82,15 @@ p {
 /* Features Section*/
 
 #features {
- padding: 7% 15%;
  background-color: #fff;
  position: relative;
 }
 
+.features-title{
+    font-size: 1.5rem;
+}
+
 .features-box {
-    text-align: center;
     padding: 5%;
 }
 
@@ -93,15 +105,17 @@ p {
 
 /* Testimonials Section*/
 
-#testimonials {
-    text-align: center;
+#testimonials {   
     background-color: rgba(188, 1, 60, 0.689);
     color: #fff;
 }
 
-.carousel-item {
-    padding: 7% 15%;
+.testimonial-txt {
+    font-size: 3rem;
+    line-height: 1.5;
 }
+
+
 
 .img-testimonials {
     width: 10%;
@@ -112,7 +126,6 @@ p {
 
 #press {
     background-color: rgba(188, 1, 60, 0.689);
-    text-align: center;
     padding-bottom: 5%;
 }
 
@@ -125,7 +138,6 @@ p {
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
 .pricing-col {
@@ -133,11 +145,15 @@ p {
     margin-bottom: 5%;
 }
 
+.price-txt {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 /* CTA Section*/
 
 #cta {
-    padding: 7% 15%;
-    text-align: center;
+
     color: #fff;
     background-color: rgba(188, 1, 60, 0.689);
 }
@@ -150,10 +166,6 @@ p {
 
 /* Footer Section */
 
-#footer{
-    text-align: center;
-    padding: 3%;
-}
 
 .icon-social{
     margin: 20px 10px;
